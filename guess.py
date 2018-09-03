@@ -5,7 +5,11 @@
 
 
 import random
-r = random.randint(1, 100)
+start = input('請輸入隨機數字範圍初始值: ')
+end = input('請輸入隨機數字範圍結束值: ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 count = 0
 while True:
 	count = count + 1  #count += 1
